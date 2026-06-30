@@ -300,7 +300,7 @@ export default function MenuPage() {
 
             {/* QR Popup */}
             {showQR && (
-              <div className={`mt-3 p-4 rounded-2xl border absolute z-20 shadow-2xl ${
+              <div className={`mt-3 p-4 rounded-2xl border absolute z-50 shadow-2xl right-0 top-full ${
                 isBeach
                   ? 'bg-[#0a2820] border-[#00a896]/20'
                   : 'bg-[#1a110b] border-[#d4af37]/20'
